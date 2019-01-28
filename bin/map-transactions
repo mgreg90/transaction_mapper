@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+ROOT_DIR = File.expand_path('../..', __FILE__)
+app = "#{ROOT_DIR}/src/app.rb"
+p app
+require 'pry'; binding.pry
+require app
+
+TransactionMapper.(ARGV.first)
