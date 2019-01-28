@@ -1,3 +1,124 @@
 {
-  
+  "rent": [
+
+  ],
+  "groceries": [
+    "publix",
+    "winn dixie",
+    "winn-dixie"
+  ],
+  "restaurants/delivery": [
+    "starbucks",
+    "burger king",
+    "postmates",
+    "royal liquors",
+    "wendy's",
+    "mcdonald's",
+    "giardino gourmet sal",
+    "black point ocean",
+    "nisha's",
+    "chipotle",
+    "firehouse",
+    "instacart",
+    "subway",
+    "lnb grovestand",
+    "papa john",
+    "poc buffet",
+    "taco bell",
+    "chili's",
+    "swine",
+    "salumeria",
+    "shake shack",
+    "mega wine & spirit",
+    "tap 42",
+    "bombay darbar",
+    "la carreta",
+    "swarm inc.",
+    "domino's",
+    "pollo tropical",
+    "total wine and more",
+    "chick-fil-a",
+    "sammis",
+    "boston market",
+    "checkers",
+    "dunkin",
+    "miss saigon",
+    "cheesecake",
+    "jamaica caribbean",
+    "varadero liquors",
+    "art pie",
+    "internal arts institstuart"
+  ],
+  "uber": [
+    "uber"
+  ],
+  "car": [
+    "chevron",
+    "exxonmobil",
+    "shell oil",
+    "express way parking",
+    "city of coral gables",
+    "sunshine",
+    "sunpass"
+  ],
+  "dui": [
+    "you impact",
+    "affordable & conveni",
+    "c o n dade"
+  ],
+  "charity": [
+    "aspca",
+    "reason foundation"
+  ],
+  "electricity": [
+
+  ],
+  "entertainment": [
+    "netflix.com",
+    "comcast cable",
+    "sling tv",
+    "sirius",
+    "prime video",
+    "massage envy",
+    "spotify",
+    "medium annual",
+    "patreon",
+    "comcast",
+    "nba.com league p",
+    "diskolab"
+  ],
+  "things": [
+    "amazon.com",
+    "champs",
+    "target",
+    "prime now",
+    "primenow",
+    "the home depot",
+    "neptune cigar",
+    "barnes & noble",
+    "amzn mktp",
+    "google *",
+    "customink",
+    "keto krate",
+    "primeamz",
+    "nixia's exotic plant",
+    "nbastore.com",
+    "www.autonomous."
+  ],
+  "misc": [
+    "cvs",
+    "dnsimple",
+    "hair cuttery",
+    "walgreens",
+    "the passport store",
+    "linkedin",
+    "boys and girls club"
+  ],
+  "interest": [
+    "interest charge on"
+  ],
+  "credit_card_payment": [
+    "online payment - thank you",
+    "autopay payment - thank you"
+  ]
 }
