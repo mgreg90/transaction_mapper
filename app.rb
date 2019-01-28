@@ -22,7 +22,9 @@ class TransactionMapper
   def call
     mapped_transactions = map_transactions
     display_unmapped_labels(mapped_transactions)
-    # TODO write new csv
+    new_csv_file = write_transactions_csv(mapped_transactions)
+    puts "New CSV file: #{new_csv_file}".green.bold
+    puts "Done!".green.bold
   end
 
   private
@@ -49,6 +51,10 @@ class TransactionMapper
 
     total = transactions.select { |txn| txn.unmapped? }.count
     puts "\ntotal unmapped: #{total}".white
+  end
+
+  def write_transactions_csv(mapped_transactions)
+    TransactionCsvBuilder.(mapped_transactions)
   end
 
 end

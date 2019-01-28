@@ -18,6 +18,10 @@ class Transaction
     !unmapped?
   end
 
+  def to_csv_str
+    [date, label.gsub(',', ''), amount, topic].join(',')
+  end
+
   private
 
   def find_topic(mappings)
