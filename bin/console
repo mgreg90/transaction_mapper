@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+config = File.expand_path("#{__FILE__}/../../app.rb")
+
+require config
+
+# binding.pry
+Pry.start

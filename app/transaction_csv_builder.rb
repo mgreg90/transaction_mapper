@@ -22,7 +22,7 @@ class TransactionCsvBuilder
   private
 
   def file
-    PUBLIC_DIR.join(file_name)
+    PUBLIC_DIR.join('mapped_txns', file_name)
   end
 
   def file_name

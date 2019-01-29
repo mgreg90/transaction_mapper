@@ -40,6 +40,7 @@ $ bin/map-transactions ~/Downloads/ofx.csv
 
 ## TODO
 
+* Integrate scraper and mapper.
 * Create a way to add mappings to mappings.json from CLI.
 * Add tool to import transactions directly from Amex. (Possibly using this gem: https://rubygems.org/gems/amex)
 * Support CLI argument to select a specific month's transactions.

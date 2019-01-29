@@ -1,3 +1,4 @@
 .pryrc-files
 .commit-msg
 public
+.env
